@@ -23,19 +23,19 @@ delivery formats:
 This repository was built from a short sequence of prompts. You can use the same
 pattern for your own idea.
 
-### Prompt 1: Create the first working version
+### 🚀 Prompt 1: Create the first working version
 
 > I want to create an AI-powered markdown emoji list generator in a CLI app
 > format. If I paste in or write some bullet points, it should replace those
 > bullet points with relevant emojis and copy the result to my clipboard. Use
 > the GitHub Copilot SDK.
 
-### Prompt 2: Add one useful refinement
+### ✨ Prompt 2: Add one useful refinement
 
 > Add usage tracking so the app reports AI credits used, input tokens, and
 > output tokens after the result.
 
-### Prompt 3: Reuse the same idea in more surfaces
+### 🔁 Prompt 3: Reuse the same idea in more surfaces
 
 > Turn this into a Copilot Skill and a Copilot Extension too. Keep everything in
 > the same repo, but put each implementation in its own folder.
@@ -43,6 +43,33 @@ pattern for your own idea.
 That is the core message of this demo: you do not need a long design phase to
 get something useful. Start narrow, get one version working, then ask Copilot to
 repackage the same behavior where it is most useful.
+
+---
+
+## Example
+
+Running the command:
+
+```text
+/emojify
+- Is there a ghost here?
+- Ducks quack a lot
+- I would like to have a word with the moon
+- Mechanical keyboards are cool
+- We just launched a sick new feature
+- I'd like to squish some slime
+```
+
+Returns this output:
+
+```text
+👻 Is there a ghost here?
+🦆 Ducks quack a lot
+🌙 I would like to have a word with the moon
+⌨️ Mechanical keyboards are cool
+🚀 We just launched a sick new feature
+🟢 I'd like to squish some slime
+```
 
 ---
 
