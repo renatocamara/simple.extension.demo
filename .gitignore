@@ -1,0 +1,40 @@
+# Build outputs
+bin/
+obj/
+out/
+publish/
+artifacts/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE folders and files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.sln.ide
+
+# Blazor/Web generated or local outputs
+wwwroot/dist/
+wwwroot/lib/
+wwwroot/_framework/
+wwwroot/css/*.bundle.css
+wwwroot/js/*.bundle.js
+
+# Test and tooling
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+node_modules/
