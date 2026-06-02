@@ -197,3 +197,7 @@ If you want to explore the repo in order, use this sequence:
 * Once the behavior is clear, Copilot can help you repackage it as a CLI, a
   Skill, an Extension, or all three.
 * The best demo repositories show the progression, not only the final result.
+
+## 💡 Inspiration
+
+This repo is based on a demo in [a GitHub blog post about building a Copilot CLI SDK app](https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/).
