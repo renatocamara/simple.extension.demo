@@ -1,5 +1,7 @@
 # Simple Extension Demo
 
+This fork is maintained by [Renato Camara](https://github.com/renatocamara).
+
 Start with one small idea. Prompt Copilot a couple of times. End up with a
 working CLI, a reusable Skill, and an Extension tool in the same repository.
 
@@ -158,6 +160,8 @@ clipboard handling and usage reporting.
 ### 1. Run the CLI
 
 ```powershell
+git clone https://github.com/renatocamara/simple.extension.demo.git
+Set-Location simple.extension.demo
 Set-Location implementations/cli
 npm install
 npm start
